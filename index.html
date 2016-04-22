@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Slides</title>
+	<link rel="stylesheet" href="css.sslides/global.css">
+	<link rel="stylesheet" href="css.menu/menu.style.css">
+</head>
+<body>
+	<div id="container">
+			<div id="slides">
+				<div class="slides_container">
+					<div><a href="#"><img src="img/slide-1.jpg" width="570" height="270" alt="Slide 1"></a></div>
+					<div><a href="#"><img src="img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a></div>
+					<div><a href="#" ><img src="img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a></div>
+					<div><a href="#" ><img src="img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a></div>
+					<div><a href="#"><img src="img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a></div>
+					<div><a href="#"><img src="img/slide-6.jpg" width="570" height="270" alt="Slide 6"></a></div>
+					<div><a href="#"><img src="img/slide-7.jpg" width="570" height="270" alt="Slide 7"></a></div>
+				</div>
+				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+			<img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">iv>
+	</div>
+
+	<nav>
+		<ul class="content clearfix">
+			<li><a href="#">Nav 1</a></li>
+			<li><a href="#">Nav 2</a></li>
+			<li class="dropdown">
+				<a href="#">Nav 3</a>
+				<ul class="sub-menu">
+					<li><a href="#">Nav 3.1</a></li>
+					<li><a href="#">Nav 3.2</a></li>
+					<li><a href="#">Nav 3.3</a></li>
+					<li class="dropdown">
+						<a href="#">Nav 3.4</a>
+						<ul class="sub-menu">
+							<li><a href="#">Nav 3.4.1</a></li>
+							<li class="dropdown">
+								<a href="#">Nav 3.4.2</a>
+								<ul class="sub-menu">
+									<li><a href="#">Nav 3.4.2.1</a></li>
+									<li><a href="#">Nav 3.4.2.2</a></li>
+									<li><a href="#">Nav 3.4.2.3</a></li>
+									<li><a href="#">Nav 3.4.2.4</a></li>
+									<li><a href="#">Nav 3.4.2.5</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Nav 3.4.3</a></li>
+							<li><a href="#">Nav 3.4.4</a></li>
+							<li><a href="#">Nav 3.4.5</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Nav 3.5</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Nav 4</a></li>
+			<li><a href="#">Nav 5</a></li>
+		</ul>
+	</nav>
+	<form id="check">
+		<p><b>Checkbox css</b></p>
+		<p><input type="checkbox" name="option1" value="a1" checked><Br>
+			<input type="checkbox" name="option2" value="a2"><Br>
+			<input type="checkbox" name="option3" value="a3"><Br>
+		<div class="border"></div>
+		<p><b>Checkbox js</b></p>
+		<div><label for="ch1">label 1</label><input type="checkbox" class="niceCheck" id="ch1" tabindex="1" /> </div>
+		<div><label for="ch2">label 2</label><input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" /></div>
+		<div><label for="ch3">label 3</label><input type="checkbox" class="niceCheck" id="ch3" checked="checked" disabled="disabled" /></div>
+
+	</form>
+
+
+	</div>
+		<script src="js.slides/jquery-1.4.4.min.js"></script>
+	<script src="js.slides/slides.min.jquery.js"></script>
+<script src="js.slides/script.js"></script>
+	<script src="js.menu/js.menu.js"></script>
+	<script src="jqcheckbox/script.js"></script>
+
+</body>
+</html>
